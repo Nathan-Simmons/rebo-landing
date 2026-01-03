@@ -115,44 +115,15 @@ export default function Home() {
               className="relative"
             >
               <div className="relative mx-auto max-w-md">
-                {/* Phone Frame */}
+                {/* Main Phone with Real App Screenshot */}
                 <div className="relative bg-gradient-to-br from-red-500 to-red-600 rounded-[3rem] p-2 shadow-2xl">
                   <div className="bg-black rounded-[2.5rem] p-4">
                     <div className="bg-white rounded-[2rem] overflow-hidden">
-                      {/* Mock App Screenshot */}
-                      <div className="bg-gray-100 aspect-[9/19.5]">
-                        <div className="p-4">
-                          <div className="bg-white rounded-lg p-3 shadow-sm mb-3">
-                            <div className="flex items-center gap-2 mb-2">
-                              <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-                              <span className="text-xs text-gray-600">Live Map View</span>
-                            </div>
-                            <div className="h-32 bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg"></div>
-                          </div>
-                          <div className="space-y-3">
-                            <div className="bg-white rounded-lg p-3 shadow-sm">
-                              <div className="flex items-center justify-between mb-2">
-                                <span className="font-semibold text-sm">4301 Henderson Rd</span>
-                                <div className="flex items-center gap-1">
-                                  <span className="text-yellow-500">★</span>
-                                  <span className="text-sm">4.5</span>
-                                </div>
-                              </div>
-                              <p className="text-xs text-gray-600">Great management, responsive to...</p>
-                            </div>
-                            <div className="bg-white rounded-lg p-3 shadow-sm">
-                              <div className="flex items-center justify-between mb-2">
-                                <span className="font-semibold text-sm">The Heights Apartments</span>
-                                <div className="flex items-center gap-1">
-                                  <span className="text-yellow-500">★</span>
-                                  <span className="text-sm">3.8</span>
-                                </div>
-                              </div>
-                              <p className="text-xs text-gray-600">Nice amenities but parking is...</p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+                      <img
+                        src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/00/f2/26/00f226bc-4264-04a8-a3d5-b7d03b2d3acd/rebo1.jpg/400x800bb.png"
+                        alt="Rebo App Map View"
+                        className="w-full h-full object-cover"
+                      />
                     </div>
                   </div>
                 </div>
@@ -200,6 +171,76 @@ export default function Home() {
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
           </svg>
         </motion.div>
+      </section>
+
+      {/* App Screenshots Gallery */}
+      <section className="py-20 bg-gray-50">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            className="text-center mb-12"
+          >
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">
+              See Rebo in Action
+            </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Browse real reviews, explore interactive maps, and make informed rental decisions
+            </p>
+          </motion.div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {[
+              {
+                src: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/00/f2/26/00f226bc-4264-04a8-a3d5-b7d03b2d3acd/rebo1.jpg/400x800bb.png",
+                title: "Interactive Map",
+                description: "See all properties with ratings at a glance"
+              },
+              {
+                src: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a9/9e/25/a99e2533-17ad-a971-ef7e-6d677910539c/rebo2.jpg/400x800bb.png",
+                title: "Property Details",
+                description: "Read verified reviews from real tenants"
+              },
+              {
+                src: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/79/35/36/79353648-5613-a5a1-fb13-0aa3b9b05949/rebo3.jpg/400x800bb.png",
+                title: "Smart Search",
+                description: "Filter by ratings, price, and amenities"
+              },
+              {
+                src: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/38/8a/6a/388a6a72-b773-0f09-dcd3-8fc948ba8b3e/rebo4.jpg/400x800bb.png",
+                title: "User Reviews",
+                description: "Share your experiences to help others"
+              }
+            ].map((screenshot, index) => (
+              <motion.div
+                key={index}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, delay: index * 0.1 }}
+                className="relative group"
+              >
+                <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow">
+                  <div className="relative bg-gradient-to-br from-gray-100 to-gray-200 p-4">
+                    <div className="mx-auto max-w-[200px]">
+                      <div className="relative bg-black rounded-[2rem] p-2">
+                        <img
+                          src={screenshot.src}
+                          alt={screenshot.title}
+                          className="w-full rounded-[1.5rem]"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="p-4">
+                    <h3 className="font-semibold text-gray-900 mb-1">{screenshot.title}</h3>
+                    <p className="text-sm text-gray-600">{screenshot.description}</p>
+                  </div>
+                </div>
+              </motion.div>
+            ))}
+          </div>
+        </div>
       </section>
 
       {/* Features Section - Zillow-inspired clean grid */}
