@@ -67,7 +67,7 @@ export default function Home() {
               {/* CTA Button - App Store Only */}
               <div className="flex flex-col sm:flex-row gap-4">
                 <motion.a
-                  href="https://apps.apple.com/us/app/rebo/id6738902885"
+                  href="https://apps.apple.com/us/app/rebo-reviews-for-renters/id6754806321"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   className="inline-flex items-center justify-center px-8 py-4 bg-red-600 text-white font-semibold rounded-lg shadow-lg hover:bg-red-700 transition"
@@ -612,7 +612,7 @@ export default function Home() {
 
             <div className="flex justify-center">
               <motion.a
-                href="https://apps.apple.com/us/app/rebo/id6738902885"
+                href="https://apps.apple.com/us/app/rebo-reviews-for-renters/id6754806321"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="inline-flex items-center justify-center px-8 py-4 bg-white text-red-600 font-semibold rounded-lg shadow-lg hover:bg-gray-50 transition"
@@ -638,7 +638,7 @@ export default function Home() {
               </p>
               <div className="mt-4">
                 <a
-                  href="https://apps.apple.com/us/app/rebo/id6738902885"
+                  href="https://apps.apple.com/us/app/rebo-reviews-for-renters/id6754806321"
                   className="inline-flex items-center text-sm hover:text-white transition"
                 >
                   <svg className="w-5 h-5 mr-2" viewBox="0 0 24 24" fill="currentColor">
@@ -654,14 +654,14 @@ export default function Home() {
                 <li><a href="#features" className="hover:text-white transition">Features</a></li>
                 <li><a href="#how-it-works" className="hover:text-white transition">How it Works</a></li>
                 <li><a href="#coverage" className="hover:text-white transition">Coverage Areas</a></li>
-                <li><a href="https://apps.apple.com/us/app/rebo/id6738902885" className="hover:text-white transition">Download App</a></li>
+                <li><a href="https://apps.apple.com/us/app/rebo-reviews-for-renters/id6754806321" className="hover:text-white transition">Download App</a></li>
               </ul>
             </div>
             <div>
               <h4 className="text-white font-semibold mb-4">Support</h4>
               <ul className="space-y-2 text-sm">
                 <li><a href="mailto:support@reborental.com" className="hover:text-white transition">Contact Support</a></li>
-                <li><a href="https://apps.apple.com/us/app/rebo/id6738902885" className="hover:text-white transition">App Store</a></li>
+                <li><a href="https://apps.apple.com/us/app/rebo-reviews-for-renters/id6754806321" className="hover:text-white transition">App Store</a></li>
                 <li><a href="mailto:feedback@reborental.com" className="hover:text-white transition">Send Feedback</a></li>
               </ul>
             </div>
