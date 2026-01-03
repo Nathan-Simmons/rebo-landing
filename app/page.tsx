@@ -64,10 +64,10 @@ export default function Home() {
                 Make informed rental decisions with confidence.
               </p>
 
-              {/* CTA Buttons - Uber-inspired immediate action */}
+              {/* CTA Button - App Store Only */}
               <div className="flex flex-col sm:flex-row gap-4">
                 <motion.a
-                  href="#"
+                  href="https://apps.apple.com/us/app/rebo/id6738902885"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   className="inline-flex items-center justify-center px-8 py-4 bg-red-600 text-white font-semibold rounded-lg shadow-lg hover:bg-red-700 transition"
@@ -76,17 +76,6 @@ export default function Home() {
                     <path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.53 4.09l-.05-.01zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/>
                   </svg>
                   Download on App Store
-                </motion.a>
-                <motion.a
-                  href="#"
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                  className="inline-flex items-center justify-center px-8 py-4 bg-white text-gray-900 font-semibold rounded-lg shadow-lg border-2 border-gray-200 hover:bg-gray-50 transition"
-                >
-                  <svg className="w-6 h-6 mr-2" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M3 20.5v-17c0-.83.67-1.5 1.5-1.5h1c.83 0 1.5.67 1.5 1.5v17c0 .83-.67 1.5-1.5 1.5h-1c-.83 0-1.5-.67-1.5-1.5zM8 20.5v-17c0-.83.67-1.5 1.5-1.5h1c.83 0 1.5.67 1.5 1.5v17c0 .83-.67 1.5-1.5 1.5h-1c-.83 0-1.5-.67-1.5-1.5zM13 20.5v-17c0-.83.67-1.5 1.5-1.5h1c.83 0 1.5.67 1.5 1.5v17c0 .83-.67 1.5-1.5 1.5h-1c-.83 0-1.5-.67-1.5-1.5zM18 20.5v-17c0-.83.67-1.5 1.5-1.5h1c.83 0 1.5.67 1.5 1.5v17c0 .83-.67 1.5-1.5 1.5h-1c-.83 0-1.5-.67-1.5-1.5z"/>
-                  </svg>
-                  Get on Google Play
                 </motion.a>
               </div>
 
@@ -244,7 +233,7 @@ export default function Home() {
       </section>
 
       {/* Features Section - Zillow-inspired clean grid */}
-      <section className="py-20 bg-white">
+      <section id="features" className="py-20 bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -379,7 +368,7 @@ export default function Home() {
       </section>
 
       {/* How It Works - Uber-inspired simplicity */}
-      <section className="py-20 bg-gradient-to-br from-red-50 to-white">
+      <section id="how-it-works" className="py-20 bg-gradient-to-br from-red-50 to-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -559,7 +548,7 @@ export default function Home() {
       </section>
 
       {/* Coverage Area */}
-      <section className="py-20 bg-gradient-to-br from-gray-50 to-white">
+      <section id="coverage" className="py-20 bg-gradient-to-br from-gray-50 to-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -621,9 +610,9 @@ export default function Home() {
               Download now and never sign a bad lease again.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <div className="flex justify-center">
               <motion.a
-                href="#"
+                href="https://apps.apple.com/us/app/rebo/id6738902885"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="inline-flex items-center justify-center px-8 py-4 bg-white text-red-600 font-semibold rounded-lg shadow-lg hover:bg-gray-50 transition"
@@ -632,17 +621,6 @@ export default function Home() {
                   <path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.53 4.09l-.05-.01zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/>
                 </svg>
                 Download on App Store
-              </motion.a>
-              <motion.a
-                href="#"
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                className="inline-flex items-center justify-center px-8 py-4 bg-transparent text-white font-semibold rounded-lg border-2 border-white hover:bg-white hover:text-red-600 transition"
-              >
-                <svg className="w-6 h-6 mr-2" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M3 20.5v-17c0-.83.67-1.5 1.5-1.5h1c.83 0 1.5.67 1.5 1.5v17c0 .83-.67 1.5-1.5 1.5h-1c-.83 0-1.5-.67-1.5-1.5zM8 20.5v-17c0-.83.67-1.5 1.5-1.5h1c.83 0 1.5.67 1.5 1.5v17c0 .83-.67 1.5-1.5 1.5h-1c-.83 0-1.5-.67-1.5-1.5zM13 20.5v-17c0-.83.67-1.5 1.5-1.5h1c.83 0 1.5.67 1.5 1.5v17c0 .83-.67 1.5-1.5 1.5h-1c-.83 0-1.5-.67-1.5-1.5zM18 20.5v-17c0-.83.67-1.5 1.5-1.5h1c.83 0 1.5.67 1.5 1.5v17c0 .83-.67 1.5-1.5 1.5h-1c-.83 0-1.5-.67-1.5-1.5z"/>
-                </svg>
-                Get on Google Play
               </motion.a>
             </div>
           </motion.div>
@@ -658,29 +636,41 @@ export default function Home() {
               <p className="text-sm">
                 Real reviews from real renters. Know before you sign.
               </p>
+              <div className="mt-4">
+                <a
+                  href="https://apps.apple.com/us/app/rebo/id6738902885"
+                  className="inline-flex items-center text-sm hover:text-white transition"
+                >
+                  <svg className="w-5 h-5 mr-2" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.53 4.09l-.05-.01zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/>
+                  </svg>
+                  Download App
+                </a>
+              </div>
             </div>
             <div>
               <h4 className="text-white font-semibold mb-4">Product</h4>
               <ul className="space-y-2 text-sm">
-                <li><a href="#" className="hover:text-white transition">Features</a></li>
-                <li><a href="#" className="hover:text-white transition">How it Works</a></li>
-                <li><a href="#" className="hover:text-white transition">Coverage Areas</a></li>
+                <li><a href="#features" className="hover:text-white transition">Features</a></li>
+                <li><a href="#how-it-works" className="hover:text-white transition">How it Works</a></li>
+                <li><a href="#coverage" className="hover:text-white transition">Coverage Areas</a></li>
+                <li><a href="https://apps.apple.com/us/app/rebo/id6738902885" className="hover:text-white transition">Download App</a></li>
               </ul>
             </div>
             <div>
-              <h4 className="text-white font-semibold mb-4">Company</h4>
+              <h4 className="text-white font-semibold mb-4">Support</h4>
               <ul className="space-y-2 text-sm">
-                <li><a href="#" className="hover:text-white transition">About Us</a></li>
-                <li><a href="#" className="hover:text-white transition">Blog</a></li>
-                <li><a href="#" className="hover:text-white transition">Contact</a></li>
+                <li><a href="mailto:support@reborental.com" className="hover:text-white transition">Contact Support</a></li>
+                <li><a href="https://apps.apple.com/us/app/rebo/id6738902885" className="hover:text-white transition">App Store</a></li>
+                <li><a href="mailto:feedback@reborental.com" className="hover:text-white transition">Send Feedback</a></li>
               </ul>
             </div>
             <div>
               <h4 className="text-white font-semibold mb-4">Legal</h4>
               <ul className="space-y-2 text-sm">
-                <li><a href="#" className="hover:text-white transition">Privacy Policy</a></li>
-                <li><a href="#" className="hover:text-white transition">Terms of Service</a></li>
-                <li><a href="#" className="hover:text-white transition">Cookie Policy</a></li>
+                <li><a href="https://www.termsfeed.com/live/1a2b3c4d" className="hover:text-white transition">Privacy Policy</a></li>
+                <li><a href="https://www.termsfeed.com/live/5e6f7g8h" className="hover:text-white transition">Terms of Service</a></li>
+                <li><a href="mailto:legal@reborental.com" className="hover:text-white transition">Legal Inquiries</a></li>
               </ul>
             </div>
           </div>
