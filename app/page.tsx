@@ -120,8 +120,8 @@ export default function Home() {
                   <div className="bg-black rounded-[2.5rem] p-4">
                     <div className="bg-white rounded-[2rem] overflow-hidden">
                       <img
-                        src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/00/f2/26/00f226bc-4264-04a8-a3d5-b7d03b2d3acd/rebo1.jpg/400x800bb.png"
-                        alt="Rebo App Map View"
+                        src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/79/35/36/79353648-5613-a5a1-fb13-0aa3b9b05949/rebo3.jpg/400x800bb.png"
+                        alt="Rebo App Property Reviews"
                         className="w-full h-full object-cover"
                       />
                     </div>
