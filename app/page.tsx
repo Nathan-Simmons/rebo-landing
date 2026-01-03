@@ -11,7 +11,7 @@ export default function Home() {
   useEffect(() => {
     // Animate counters
     const reviewTarget = 15432
-    const propertyTarget = 8234
+    const propertyTarget = 50000000
 
     const duration = 2000
     const steps = 60
@@ -100,7 +100,7 @@ export default function Home() {
                 </div>
                 <div>
                   <div className="text-4xl font-bold text-gray-900">
-                    {propertyCount.toLocaleString()}+
+                    50M+
                   </div>
                   <div className="text-gray-600 mt-1">Properties Listed</div>
                 </div>
