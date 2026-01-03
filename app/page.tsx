@@ -194,8 +194,8 @@ export default function Home() {
             {[
               {
                 src: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/00/f2/26/00f226bc-4264-04a8-a3d5-b7d03b2d3acd/rebo1.jpg/400x800bb.png",
-                title: "Interactive Map",
-                description: "See all properties with ratings at a glance"
+                title: "User Profile",
+                description: "Track your reviews and manage subscriptions"
               },
               {
                 src: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a9/9e/25/a99e2533-17ad-a971-ef7e-6d677910539c/rebo2.jpg/400x800bb.png",
@@ -204,13 +204,13 @@ export default function Home() {
               },
               {
                 src: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/79/35/36/79353648-5613-a5a1-fb13-0aa3b9b05949/rebo3.jpg/400x800bb.png",
-                title: "Smart Search",
-                description: "Filter by ratings, price, and amenities"
+                title: "Property Reviews",
+                description: "See ratings, photos, and detailed feedback"
               },
               {
                 src: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/38/8a/6a/388a6a72-b773-0f09-dcd3-8fc948ba8b3e/rebo4.jpg/400x800bb.png",
-                title: "User Reviews",
-                description: "Share your experiences to help others"
+                title: "Interactive Map",
+                description: "Browse properties with color-coded ratings"
               }
             ].map((screenshot, index) => (
               <motion.div
