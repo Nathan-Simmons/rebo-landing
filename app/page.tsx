@@ -663,9 +663,9 @@ export default function Home() {
             <div>
               <h4 className="text-white font-semibold mb-4">Support</h4>
               <ul className="space-y-2 text-sm">
-                <li><a href="mailto:support@reborental.com" className="hover:text-white transition">Contact Support</a></li>
+                <li><a href="mailto:support@reboreviews.com" className="hover:text-white transition">Contact Support</a></li>
                 <li><a href="https://apps.apple.com/us/app/rebo-reviews-for-renters/id6754806321" className="hover:text-white transition">App Store</a></li>
-                <li><a href="mailto:feedback@reborental.com" className="hover:text-white transition">Send Feedback</a></li>
+                <li><a href="mailto:info@reboreviews.com" className="hover:text-white transition">Send Feedback</a></li>
               </ul>
             </div>
             <div>
@@ -673,7 +673,7 @@ export default function Home() {
               <ul className="space-y-2 text-sm">
                 <li><a href="https://www.termsfeed.com/live/1a2b3c4d" className="hover:text-white transition">Privacy Policy</a></li>
                 <li><a href="https://www.termsfeed.com/live/5e6f7g8h" className="hover:text-white transition">Terms of Service</a></li>
-                <li><a href="mailto:legal@reborental.com" className="hover:text-white transition">Legal Inquiries</a></li>
+                <li><a href="mailto:info@reboreviews.com" className="hover:text-white transition">Legal Inquiries</a></li>
               </ul>
             </div>
           </div>
