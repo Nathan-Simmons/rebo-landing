@@ -586,9 +586,12 @@ export default function Home() {
             className="text-center mt-12"
           >
             <p className="text-gray-600 mb-4">Don't see your city?</p>
-            <button className="text-red-600 font-semibold hover:text-red-700 transition">
+            <a
+              href="mailto:info@reboreviews.com?subject=Request%20Coverage%20in%20My%20Area"
+              className="text-red-600 font-semibold hover:text-red-700 transition cursor-pointer"
+            >
               Request your area →
-            </button>
+            </a>
           </motion.div>
         </div>
       </section>
